@@ -10,9 +10,9 @@ commentInput.keydown(function(e) {
 
 
 
-onNewListItem(commentInput.val(), function(commentInput) {
+onNewListItem("comment-challenge-2", function(newComment) {
   commentDisplay.append("<span>" + commentInput + "</span>")
-  console.log("hi");
+  console.log("hello");
 }
 
 )
