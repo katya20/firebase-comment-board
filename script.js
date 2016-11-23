@@ -7,6 +7,6 @@ commentInput.keydown(function(e) {
   }
 })
 
-onNewListItem(comment, function(newComment) {
+onNewListItem("comment-challenge-2", function(newComment) {
   commentDisplay.append("<span>" + newComment + "</span>")
 })
