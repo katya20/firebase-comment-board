@@ -8,7 +8,7 @@ commentInput.keydown(function(e) {
   }
 })
 
-onNewListItem(commentInput.val(), function(newComment) {
+onNewListItem(commentInput.val(), function(commentInput) {
   commentDisplay.append("<span>" + newComment + "</span>")
   console.log("hi");
 }
