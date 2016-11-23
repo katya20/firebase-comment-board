@@ -11,8 +11,8 @@ commentInput.keydown(function(e) {
 
 
 onNewListItem("comment-challenge-2", function(newComment) {
-  commentDisplay.append("<span>" + commentInput + "</span>")
   console.log("hello");
+  commentDisplay.append("<span>" + newComment + "</span>") 
 }
-
 )
+
